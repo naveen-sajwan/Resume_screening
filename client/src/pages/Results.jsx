@@ -67,12 +67,12 @@ const handleDelete = async () => {
   
   return (
     <div className="p-10">
-      <div className="flex justify-between mb-5">
+      <div className="flex justify-between flex-wrap gap-4 mb-5">
         <input
           type="text"
           placeholder="Search Candidate"
           className="border rounded-lg bg-white"
-          style={{padding:"5px 10px"}}
+          style={{padding:"5px 10px",width:"75%"}}
           onChange={(e) =>
             setSearch(e.target.value)
           }
