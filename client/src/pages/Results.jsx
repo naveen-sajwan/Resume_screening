@@ -79,7 +79,7 @@ const handleDelete = async () => {
         />
         <div className="flex gap-3 flex-wrap">
             <a
-              href="http://localhost:5000/api/resumes/export/csv"
+              href="https://resume-screening-puix.onrender.com/api/resumes/export/csv"
               className="bg-black rounded text-white px-4 py-2"
             >
             Export CSV
